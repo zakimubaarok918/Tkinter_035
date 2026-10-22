@@ -30,3 +30,8 @@ for i in range(1, 11):
     # Label untuk setiap mata pelajaran
     lbl = ttk.Label(frame_input, text=f"Nilai Mata Pelajaran {i}:", font=("Arial", 10))
     lbl.grid(row=i-1, column=0, sticky="w", padx=10, pady=5)
+
+    # Kotak input (Entry) untuk nilai
+    ent = ttk.Entry(frame_input, width=15)
+    ent.grid(row=i-1, column=1, padx=10, pady=5)
+    entries.append(ent)
