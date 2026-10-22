@@ -42,3 +42,7 @@ btn_prediksi = tk.Button(
     text="Hasil Prediksi", 
     command=hasil_prediksi,
     bg="#4CAF50",    
+    fg="white", 
+    font=("Helvetica", 11, "bold"),
+    padx=10, 
+    pady=5
