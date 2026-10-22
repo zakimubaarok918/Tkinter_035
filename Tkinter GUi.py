@@ -10,3 +10,7 @@ root = tk.Tk()
 root.title("Aplikasi Prediksi Prodi Pilihan")  
 root.geometry("450x600")
 root.resizable(False, False)
+
+# 1. Label Judul Aplikasi
+judul_label = tk.Label(
+    root,
