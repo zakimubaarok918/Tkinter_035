@@ -22,3 +22,6 @@ judul_label.pack(pady=20)
 # Frame untuk menampung input agar posisinya rapi
 frame_input = ttk.LabelFrame(root, text=" Input Nilai Mata Pelajaran ")
 frame_input.pack(pady=10, padx=20, fill="both", expand=True)
+
+# List untuk menyimpan referensi objek entry (10 input nilai mata pelajaran)
+entries = []
