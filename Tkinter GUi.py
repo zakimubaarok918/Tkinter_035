@@ -46,3 +46,5 @@ btn_prediksi = tk.Button(
     font=("Helvetica", 11, "bold"),
     padx=10, 
     pady=5
+)
+btn_prediksi.pack(pady=15)    
