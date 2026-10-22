@@ -57,3 +57,6 @@ label_hasil = tk.Label(
     fg="#005b96"
 )
 label_hasil.pack(pady=15)    
+
+# Menjalankan aplikasi utama
+root.mainloop()
