@@ -48,3 +48,10 @@ btn_prediksi = tk.Button(
     pady=5
 )
 btn_prediksi.pack(pady=15)    
+
+# 1. Label luaran hasil prediksi
+label_hasil = tk.Label(
+    root, 
+    text="", 
+    font=("Helvetica", 12, "bold"), 
+    fg="#005b96"
