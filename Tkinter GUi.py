@@ -25,3 +25,8 @@ frame_input.pack(pady=10, padx=20, fill="both", expand=True)
 
 # List untuk menyimpan referensi objek entry (10 input nilai mata pelajaran)
 entries = []
+
+for i in range(1, 11):
+    # Label untuk setiap mata pelajaran
+    lbl = ttk.Label(frame_input, text=f"Nilai Mata Pelajaran {i}:", font=("Arial", 10))
+    lbl.grid(row=i-1, column=0, sticky="w", padx=10, pady=5)
