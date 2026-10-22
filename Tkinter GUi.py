@@ -16,3 +16,5 @@ judul_label = tk.Label(
     root,
     text="Aplikasi Prediksi Prodi Pilihan", 
     font=("Helvetica", 16, "bold")
+)
+judul_label.pack(pady=20)    
