@@ -14,3 +14,5 @@ root.resizable(False, False)
 # 1. Label Judul Aplikasi
 judul_label = tk.Label(
     root,
+    text="Aplikasi Prediksi Prodi Pilihan", 
+    font=("Helvetica", 16, "bold")
