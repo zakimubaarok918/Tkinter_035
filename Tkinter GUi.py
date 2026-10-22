@@ -35,3 +35,10 @@ for i in range(1, 11):
     ent = ttk.Entry(frame_input, width=15)
     ent.grid(row=i-1, column=1, padx=10, pady=5)
     entries.append(ent)
+
+# 1. Button bertuliskan "Hasil Prediksi"
+btn_prediksi = tk.Button(
+    root, 
+    text="Hasil Prediksi", 
+    command=hasil_prediksi,
+    bg="#4CAF50",    
