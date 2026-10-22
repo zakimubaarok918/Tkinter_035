@@ -8,3 +8,5 @@ def hasil_prediksi():
   # Inisialisasi jendela utama
 root = tk.Tk()
 root.title("Aplikasi Prediksi Prodi Pilihan")  
+root.geometry("450x600")
+root.resizable(False, False)
